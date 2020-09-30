@@ -1,0 +1,107 @@
+html {
+    font-size: 10px;
+    color: #4e4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #ecf0f3;
+}
+
+main {
+    max-width: 50rem;
+    margin: 10rem auto;
+    background: linear-gradient(130deg, #aa272f, #eb5368 );
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 10px #cbced1, -13px -13px 10px #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #f7f7f7;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+section {
+    background: #f7f7f7;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 1rem 1.6rem;
+    border-radius: 1rem;
+    box-shadow: inset 13px 13px 20px #cbced1, inset -13px -13px 20px #fff;
+    /*box-shadow: inset 0 2px 2px lightgray;*/
+}
+
+section > div {
+    padding: 1.6rem 0;
+}
+
+.bill {
+    display: flex;
+}
+
+.bill label {
+    flex: 2;
+    align-self: center;
+}
+
+.bill input {
+    flex: 2;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+input[type="number"] {
+    font-style: inherit;
+    background-color: f4f4f5;
+    font-size: 1.8rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0 0.6rem 1.8rem;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    /*box-shadow: inset 0 px 2px lightgray;*/
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #eee;
+    margin-top: 1.3rem;
+    border-radius: 0.3rem;
+    outline-color: #eb5368;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #aa272f;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #aa272f;
+    cursor: pointer;
+    border: none;
+}
+
+.range::-moz-focus-outer {
+    border: 0;
+}
